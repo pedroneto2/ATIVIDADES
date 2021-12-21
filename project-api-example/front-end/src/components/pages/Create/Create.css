@@ -1,0 +1,13 @@
+.create-project-container > h3 {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.create-project-container > form {
+  width: 50%;
+  margin: auto;
+}
+
+.create-project-container {
+  padding: 56px;
+}

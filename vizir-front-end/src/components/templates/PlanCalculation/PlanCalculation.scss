@@ -1,0 +1,36 @@
+.plan-calculation-container {
+  background-color: #ffe8d3;
+}
+
+@media (min-width: 768px) {
+  .plan-calculation-container {
+    padding: 50px 0;
+    .text-container {
+      width: 310px;
+      margin-left: 4vw;
+      h3 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        min-width: 250px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .plan-calculation-container {
+    padding: 25px 0;
+    .text-container {
+      width: 300px;
+    }
+    h3 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,115 @@
+@media (max-width: 1280px) and (min-width: 768px) {
+  .header-container {
+    .background-overlay {
+      height: 100%;
+      background-image: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0.2) 0,
+        rgba(255, 255, 255, 0.3) 10%,
+        rgba(255, 255, 255, 0.4) 40%,
+        rgba(255, 255, 255, 0.5) 70%,
+        rgba(255, 255, 255, 0.7) 100%
+      );
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .header-container {
+    background-image: url('../../../images/img-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 585px;
+
+    .navbar-container {
+      font-size: 16px;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      img {
+        width: 59px;
+        height: 52px;
+      }
+      button {
+        width: 143px;
+      }
+    }
+
+    .header-content-container {
+      width: 452px;
+      margin-left: 10vw;
+      h2 {
+        font-size: 70px;
+        font-weight: 400;
+      }
+      p {
+        font-size: 18px;
+      }
+      button {
+        width: 143px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    background-image: url('../../../images/img-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 485px;
+
+    .navbar-container {
+      font-size: 14px;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      img {
+        width: 39px;
+        height: 38px;
+      }
+      button {
+        width: 110px;
+      }
+    }
+    .header-content-container {
+      width: 360px;
+      padding-left: 5vw;
+      h2 {
+        font-size: 50px;
+        font-weight: 400;
+      }
+      p {
+        font-size: 14px;
+      }
+      button {
+        width: 110px;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .header-container {
+    .background-overlay {
+      height: 100%;
+      background-image: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0.2) 0,
+        rgba(255, 255, 255, 0.3) 10%,
+        rgba(255, 255, 255, 0.4) 40%,
+        rgba(255, 255, 255, 0.5) 70%,
+        rgba(255, 255, 255, 0.7) 100%
+      );
+    }
+  }
+}
+
+.header-container {
+  min-width: 360px;
+}

@@ -1,0 +1,26 @@
+@media (max-width: 575px) {
+  .public-page-container .image {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .public-page-container .image {
+    display: flex;
+  }
+}
+
+.public-page-container .image {
+  background-image: url('../../images/project-management-cover.png');
+  background-color: rgb(245, 245, 245);
+  background-position: center;
+  background-size: 900px 100%;
+  background-repeat: no-repeat;
+}
+
+.public-page-container .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

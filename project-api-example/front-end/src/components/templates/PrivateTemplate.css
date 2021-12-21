@@ -1,0 +1,37 @@
+.private-page-container .private-links-container .create-container > a:nth-child(2) {
+  margin-top: 10px;
+}
+
+.private-page-container .private-links-container .create-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.private-page-container .private-links-container {
+  display: flex;
+  align-items: center;
+}
+
+.private-page-container .private-links-container > button {
+  background: none;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.private-navigation-container {
+  background-color: #000fff;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+  min-width: 590px;
+}
+
+.private-page-container a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 3vw;
+}
