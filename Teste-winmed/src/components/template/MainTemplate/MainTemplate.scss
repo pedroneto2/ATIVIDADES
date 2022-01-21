@@ -1,0 +1,64 @@
+#nav-dashboard-notification {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(255, 190, 104);
+  background-color: rgba(255, 199, 147, 0.15);
+  border: 1px solid transparent;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 30px;
+  padding-top: 1px;
+}
+
+.main-template-container {
+  height: 100vh;
+
+  .nav-links-container {
+    height: 100vh;
+
+    .links {
+      padding-left: 25px;
+      padding-top: 15px;
+    }
+  }
+  #main-template-winmed-logo {
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    transform: translateY(5px);
+  }
+
+  .main-template-logo-container {
+    p {
+      font-size: 20px;
+      font-weight: 500;
+      color: rgb(5, 115, 134);
+      transform: translateY(20px);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .main-template-container {
+    .nav-links-container {
+      width: 250px;
+    }
+  }
+}
+#main-template-user-image {
+  height: 50px;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .main-template-container {
+    .nav-links-container {
+      width: 500px;
+    }
+  }
+}
