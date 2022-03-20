@@ -1,0 +1,40 @@
+.table-component-container {
+  p {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .table-row-container {
+    display: flex;
+  }
+
+  .border-row {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .table-header {
+    font-size: 18px;
+  }
+
+  .table-body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .table-component-container {
+    p {
+      max-width: 150px;
+      min-width: 110px;
+      width: 10vw;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .table-component-container {
+    p {
+      width: 100px;
+    }
+  }
+}
